@@ -1,0 +1,20 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- Name: TrendTimeRange1
+  Type: TrendTimeRange
+  Children:
+  - Name: StartTime
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "2025-10-10T11:30:00.0000000"
+  - Name: EndTime
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Value: "2025-10-10T11:35:00.0000000"
+  - Name: TimeSpan
+    Type: BaseDataVariableType
+    DataType: Duration
+    Value: "0:00:00:01.0000000"
+  - Name: Statistics
+    Type: BaseObjectType

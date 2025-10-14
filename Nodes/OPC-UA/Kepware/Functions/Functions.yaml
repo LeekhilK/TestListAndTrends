@@ -1,0 +1,539 @@
+Name: ns=23;Functions
+Id: ns=23;s=Simulation Examples.Functions
+Type: FolderType
+DisplayName: {"LocaleId":"en","Text":"Functions"}
+Description: {"LocaleId":"en","Text":""}
+ReferenceType: Organizes
+Children:
+- Name: ns=23;Random1
+  Id: ns=23;s=Simulation Examples.Functions.Random1
+  Type: BaseVariableType
+  DataType: Int16
+  DisplayName: {"LocaleId":"en","Text":"Random1"}
+  Description: {"LocaleId":"en","Text":""}
+  Value: 10
+  Children:
+  - Name: ns=23;_Address
+    Id: ns=23;s=Simulation Examples.Functions.Random1._Address
+    Type: BaseVariableType
+    DataType: String
+    DisplayName: {"LocaleId":"en","Text":"_Address"}
+    Description: {"LocaleId":"en","Text":""}
+    Value: "RANDOM (30, 10, 75)"
+  - Name: ns=23;_ClientAccess
+    Id: ns=23;s=Simulation Examples.Functions.Random1._ClientAccess
+    Type: BaseVariableType
+    DataType: String
+    DisplayName: {"LocaleId":"en","Text":"_ClientAccess"}
+    Description: {"LocaleId":"en","Text":""}
+    Value: "Read Only"
+  - Name: ns=23;_Description
+    Id: ns=23;s=Simulation Examples.Functions.Random1._Description
+    Type: BaseVariableType
+    DataType: String
+    DisplayName: {"LocaleId":"en","Text":"_Description"}
+    Description: {"LocaleId":"en","Text":""}
+    Value: "Random values from -20 to 75 that change every 30 ms"
+  - Name: ns=23;_Name
+    Id: ns=23;s=Simulation Examples.Functions.Random1._Name
+    Type: BaseVariableType
+    DataType: String
+    DisplayName: {"LocaleId":"en","Text":"_Name"}
+    Description: {"LocaleId":"en","Text":""}
+    Value: "Random1"
+  - Name: ns=23;_NegateValue
+    Id: ns=23;s=Simulation Examples.Functions.Random1._NegateValue
+    Type: BaseVariableType
+    DataType: Boolean
+    DisplayName: {"LocaleId":"en","Text":"_NegateValue"}
+    Description: {"LocaleId":"en","Text":""}
+  - Name: ns=23;_RawDataType
+    Id: ns=23;s=Simulation Examples.Functions.Random1._RawDataType
+    Type: BaseVariableType
+    DataType: String
+    DisplayName: {"LocaleId":"en","Text":"_RawDataType"}
+    Description: {"LocaleId":"en","Text":""}
+    Value: "Short"
+  - Name: ns=23;_ScalingClampHigh
+    Id: ns=23;s=Simulation Examples.Functions.Random1._ScalingClampHigh
+    Type: BaseVariableType
+    DataType: Boolean
+    DisplayName: {"LocaleId":"en","Text":"_ScalingClampHigh"}
+    Description: {"LocaleId":"en","Text":""}
+  - Name: ns=23;_ScalingClampLow
+    Id: ns=23;s=Simulation Examples.Functions.Random1._ScalingClampLow
+    Type: BaseVariableType
+    DataType: Boolean
+    DisplayName: {"LocaleId":"en","Text":"_ScalingClampLow"}
+    Description: {"LocaleId":"en","Text":""}
+  - Name: ns=23;_ScalingRawHigh
+    Id: ns=23;s=Simulation Examples.Functions.Random1._ScalingRawHigh
+    Type: BaseVariableType
+    DataType: Double
+    DisplayName: {"LocaleId":"en","Text":"_ScalingRawHigh"}
+    Description: {"LocaleId":"en","Text":""}
+    Value: 1000.0
+  - Name: ns=23;_ScalingRawLow
+    Id: ns=23;s=Simulation Examples.Functions.Random1._ScalingRawLow
+    Type: BaseVariableType
+    DataType: Double
+    DisplayName: {"LocaleId":"en","Text":"_ScalingRawLow"}
+    Description: {"LocaleId":"en","Text":""}
+  - Name: ns=23;_ScalingScaledDataType
+    Id: ns=23;s=Simulation Examples.Functions.Random1._ScalingScaledDataType
+    Type: BaseVariableType
+    DataType: String
+    DisplayName: {"LocaleId":"en","Text":"_ScalingScaledDataType"}
+    Description: {"LocaleId":"en","Text":""}
+    Value: "Double"
+  - Name: ns=23;_ScalingScaledHigh
+    Id: ns=23;s=Simulation Examples.Functions.Random1._ScalingScaledHigh
+    Type: BaseVariableType
+    DataType: Double
+    DisplayName: {"LocaleId":"en","Text":"_ScalingScaledHigh"}
+    Description: {"LocaleId":"en","Text":""}
+    Value: 1000.0
+  - Name: ns=23;_ScalingScaledLow
+    Id: ns=23;s=Simulation Examples.Functions.Random1._ScalingScaledLow
+    Type: BaseVariableType
+    DataType: Double
+    DisplayName: {"LocaleId":"en","Text":"_ScalingScaledLow"}
+    Description: {"LocaleId":"en","Text":""}
+  - Name: ns=23;_ScalingType
+    Id: ns=23;s=Simulation Examples.Functions.Random1._ScalingType
+    Type: BaseVariableType
+    DataType: String
+    DisplayName: {"LocaleId":"en","Text":"_ScalingType"}
+    Description: {"LocaleId":"en","Text":""}
+    Value: "None"
+  - Name: ns=23;_ScalingUnits
+    Id: ns=23;s=Simulation Examples.Functions.Random1._ScalingUnits
+    Type: BaseVariableType
+    DataType: String
+    DisplayName: {"LocaleId":"en","Text":"_ScalingUnits"}
+    Description: {"LocaleId":"en","Text":""}
+- Name: ns=23;Random2
+  Id: ns=23;s=Simulation Examples.Functions.Random2
+  Type: BaseVariableType
+  DataType: UInt16
+  DisplayName: {"LocaleId":"en","Text":"Random2"}
+  Description: {"LocaleId":"en","Text":""}
+  Children:
+  - Name: ns=23;_Address
+    Id: ns=23;s=Simulation Examples.Functions.Random2._Address
+    Type: BaseVariableType
+    DataType: String
+    DisplayName: {"LocaleId":"en","Text":"_Address"}
+    Description: {"LocaleId":"en","Text":""}
+    Value: "RANDOM (100, 0, 1000)"
+  - Name: ns=23;_ClientAccess
+    Id: ns=23;s=Simulation Examples.Functions.Random2._ClientAccess
+    Type: BaseVariableType
+    DataType: String
+    DisplayName: {"LocaleId":"en","Text":"_ClientAccess"}
+    Description: {"LocaleId":"en","Text":""}
+    Value: "Read Only"
+  - Name: ns=23;_Description
+    Id: ns=23;s=Simulation Examples.Functions.Random2._Description
+    Type: BaseVariableType
+    DataType: String
+    DisplayName: {"LocaleId":"en","Text":"_Description"}
+    Description: {"LocaleId":"en","Text":""}
+    Value: "Random values from 0 to 1000 that change every 100 ms"
+  - Name: ns=23;_Name
+    Id: ns=23;s=Simulation Examples.Functions.Random2._Name
+    Type: BaseVariableType
+    DataType: String
+    DisplayName: {"LocaleId":"en","Text":"_Name"}
+    Description: {"LocaleId":"en","Text":""}
+    Value: "Random2"
+  - Name: ns=23;_NegateValue
+    Id: ns=23;s=Simulation Examples.Functions.Random2._NegateValue
+    Type: BaseVariableType
+    DataType: Boolean
+    DisplayName: {"LocaleId":"en","Text":"_NegateValue"}
+    Description: {"LocaleId":"en","Text":""}
+  - Name: ns=23;_RawDataType
+    Id: ns=23;s=Simulation Examples.Functions.Random2._RawDataType
+    Type: BaseVariableType
+    DataType: String
+    DisplayName: {"LocaleId":"en","Text":"_RawDataType"}
+    Description: {"LocaleId":"en","Text":""}
+    Value: "Word"
+  - Name: ns=23;_ScalingClampHigh
+    Id: ns=23;s=Simulation Examples.Functions.Random2._ScalingClampHigh
+    Type: BaseVariableType
+    DataType: Boolean
+    DisplayName: {"LocaleId":"en","Text":"_ScalingClampHigh"}
+    Description: {"LocaleId":"en","Text":""}
+  - Name: ns=23;_ScalingClampLow
+    Id: ns=23;s=Simulation Examples.Functions.Random2._ScalingClampLow
+    Type: BaseVariableType
+    DataType: Boolean
+    DisplayName: {"LocaleId":"en","Text":"_ScalingClampLow"}
+    Description: {"LocaleId":"en","Text":""}
+  - Name: ns=23;_ScalingRawHigh
+    Id: ns=23;s=Simulation Examples.Functions.Random2._ScalingRawHigh
+    Type: BaseVariableType
+    DataType: Double
+    DisplayName: {"LocaleId":"en","Text":"_ScalingRawHigh"}
+    Description: {"LocaleId":"en","Text":""}
+    Value: 1000.0
+  - Name: ns=23;_ScalingRawLow
+    Id: ns=23;s=Simulation Examples.Functions.Random2._ScalingRawLow
+    Type: BaseVariableType
+    DataType: Double
+    DisplayName: {"LocaleId":"en","Text":"_ScalingRawLow"}
+    Description: {"LocaleId":"en","Text":""}
+  - Name: ns=23;_ScalingScaledDataType
+    Id: ns=23;s=Simulation Examples.Functions.Random2._ScalingScaledDataType
+    Type: BaseVariableType
+    DataType: String
+    DisplayName: {"LocaleId":"en","Text":"_ScalingScaledDataType"}
+    Description: {"LocaleId":"en","Text":""}
+    Value: "Double"
+  - Name: ns=23;_ScalingScaledHigh
+    Id: ns=23;s=Simulation Examples.Functions.Random2._ScalingScaledHigh
+    Type: BaseVariableType
+    DataType: Double
+    DisplayName: {"LocaleId":"en","Text":"_ScalingScaledHigh"}
+    Description: {"LocaleId":"en","Text":""}
+    Value: 1000.0
+  - Name: ns=23;_ScalingScaledLow
+    Id: ns=23;s=Simulation Examples.Functions.Random2._ScalingScaledLow
+    Type: BaseVariableType
+    DataType: Double
+    DisplayName: {"LocaleId":"en","Text":"_ScalingScaledLow"}
+    Description: {"LocaleId":"en","Text":""}
+  - Name: ns=23;_ScalingType
+    Id: ns=23;s=Simulation Examples.Functions.Random2._ScalingType
+    Type: BaseVariableType
+    DataType: String
+    DisplayName: {"LocaleId":"en","Text":"_ScalingType"}
+    Description: {"LocaleId":"en","Text":""}
+    Value: "None"
+  - Name: ns=23;_ScalingUnits
+    Id: ns=23;s=Simulation Examples.Functions.Random2._ScalingUnits
+    Type: BaseVariableType
+    DataType: String
+    DisplayName: {"LocaleId":"en","Text":"_ScalingUnits"}
+    Description: {"LocaleId":"en","Text":""}
+- Name: ns=23;Random3
+  Id: ns=23;s=Simulation Examples.Functions.Random3
+  Type: BaseVariableType
+  DataType: Int32
+  DisplayName: {"LocaleId":"en","Text":"Random3"}
+  Description: {"LocaleId":"en","Text":""}
+  Value: 1
+  Children:
+  - Name: ns=23;_Address
+    Id: ns=23;s=Simulation Examples.Functions.Random3._Address
+    Type: BaseVariableType
+    DataType: String
+    DisplayName: {"LocaleId":"en","Text":"_Address"}
+    Description: {"LocaleId":"en","Text":""}
+    Value: "RANDOM (100, 1, 70)"
+  - Name: ns=23;_ClientAccess
+    Id: ns=23;s=Simulation Examples.Functions.Random3._ClientAccess
+    Type: BaseVariableType
+    DataType: String
+    DisplayName: {"LocaleId":"en","Text":"_ClientAccess"}
+    Description: {"LocaleId":"en","Text":""}
+    Value: "Read Only"
+  - Name: ns=23;_Description
+    Id: ns=23;s=Simulation Examples.Functions.Random3._Description
+    Type: BaseVariableType
+    DataType: String
+    DisplayName: {"LocaleId":"en","Text":"_Description"}
+    Description: {"LocaleId":"en","Text":""}
+    Value: "Random values from -1000 to 0 that change every 100 ms"
+  - Name: ns=23;_Name
+    Id: ns=23;s=Simulation Examples.Functions.Random3._Name
+    Type: BaseVariableType
+    DataType: String
+    DisplayName: {"LocaleId":"en","Text":"_Name"}
+    Description: {"LocaleId":"en","Text":""}
+    Value: "Random3"
+  - Name: ns=23;_NegateValue
+    Id: ns=23;s=Simulation Examples.Functions.Random3._NegateValue
+    Type: BaseVariableType
+    DataType: Boolean
+    DisplayName: {"LocaleId":"en","Text":"_NegateValue"}
+    Description: {"LocaleId":"en","Text":""}
+  - Name: ns=23;_RawDataType
+    Id: ns=23;s=Simulation Examples.Functions.Random3._RawDataType
+    Type: BaseVariableType
+    DataType: String
+    DisplayName: {"LocaleId":"en","Text":"_RawDataType"}
+    Description: {"LocaleId":"en","Text":""}
+    Value: "Long"
+  - Name: ns=23;_ScalingClampHigh
+    Id: ns=23;s=Simulation Examples.Functions.Random3._ScalingClampHigh
+    Type: BaseVariableType
+    DataType: Boolean
+    DisplayName: {"LocaleId":"en","Text":"_ScalingClampHigh"}
+    Description: {"LocaleId":"en","Text":""}
+  - Name: ns=23;_ScalingClampLow
+    Id: ns=23;s=Simulation Examples.Functions.Random3._ScalingClampLow
+    Type: BaseVariableType
+    DataType: Boolean
+    DisplayName: {"LocaleId":"en","Text":"_ScalingClampLow"}
+    Description: {"LocaleId":"en","Text":""}
+  - Name: ns=23;_ScalingRawHigh
+    Id: ns=23;s=Simulation Examples.Functions.Random3._ScalingRawHigh
+    Type: BaseVariableType
+    DataType: Double
+    DisplayName: {"LocaleId":"en","Text":"_ScalingRawHigh"}
+    Description: {"LocaleId":"en","Text":""}
+    Value: 1000.0
+  - Name: ns=23;_ScalingRawLow
+    Id: ns=23;s=Simulation Examples.Functions.Random3._ScalingRawLow
+    Type: BaseVariableType
+    DataType: Double
+    DisplayName: {"LocaleId":"en","Text":"_ScalingRawLow"}
+    Description: {"LocaleId":"en","Text":""}
+  - Name: ns=23;_ScalingScaledDataType
+    Id: ns=23;s=Simulation Examples.Functions.Random3._ScalingScaledDataType
+    Type: BaseVariableType
+    DataType: String
+    DisplayName: {"LocaleId":"en","Text":"_ScalingScaledDataType"}
+    Description: {"LocaleId":"en","Text":""}
+    Value: "Double"
+  - Name: ns=23;_ScalingScaledHigh
+    Id: ns=23;s=Simulation Examples.Functions.Random3._ScalingScaledHigh
+    Type: BaseVariableType
+    DataType: Double
+    DisplayName: {"LocaleId":"en","Text":"_ScalingScaledHigh"}
+    Description: {"LocaleId":"en","Text":""}
+    Value: 1000.0
+  - Name: ns=23;_ScalingScaledLow
+    Id: ns=23;s=Simulation Examples.Functions.Random3._ScalingScaledLow
+    Type: BaseVariableType
+    DataType: Double
+    DisplayName: {"LocaleId":"en","Text":"_ScalingScaledLow"}
+    Description: {"LocaleId":"en","Text":""}
+  - Name: ns=23;_ScalingType
+    Id: ns=23;s=Simulation Examples.Functions.Random3._ScalingType
+    Type: BaseVariableType
+    DataType: String
+    DisplayName: {"LocaleId":"en","Text":"_ScalingType"}
+    Description: {"LocaleId":"en","Text":""}
+    Value: "None"
+  - Name: ns=23;_ScalingUnits
+    Id: ns=23;s=Simulation Examples.Functions.Random3._ScalingUnits
+    Type: BaseVariableType
+    DataType: String
+    DisplayName: {"LocaleId":"en","Text":"_ScalingUnits"}
+    Description: {"LocaleId":"en","Text":""}
+- Name: ns=23;TankDecrement
+  Id: ns=23;s=Simulation Examples.Functions.TankDecrement
+  Type: BaseVariableType
+  DataType: Int32
+  DisplayName: {"LocaleId":"en","Text":"TankDecrement"}
+  Description: {"LocaleId":"en","Text":""}
+  Children:
+  - Name: ns=23;_Address
+    Id: ns=23;s=Simulation Examples.Functions.TankDecrement._Address
+    Type: BaseVariableType
+    DataType: String
+    DisplayName: {"LocaleId":"en","Text":"_Address"}
+    Description: {"LocaleId":"en","Text":""}
+    Value: "RAMP (1000, 0, 40, -1)"
+  - Name: ns=23;_ClientAccess
+    Id: ns=23;s=Simulation Examples.Functions.TankDecrement._ClientAccess
+    Type: BaseVariableType
+    DataType: String
+    DisplayName: {"LocaleId":"en","Text":"_ClientAccess"}
+    Description: {"LocaleId":"en","Text":""}
+    Value: "Read Only"
+  - Name: ns=23;_Description
+    Id: ns=23;s=Simulation Examples.Functions.TankDecrement._Description
+    Type: BaseVariableType
+    DataType: String
+    DisplayName: {"LocaleId":"en","Text":"_Description"}
+    Description: {"LocaleId":"en","Text":""}
+    Value: "Value decrements by 5 from 1000 to -1000 every 2000  ms"
+  - Name: ns=23;_Name
+    Id: ns=23;s=Simulation Examples.Functions.TankDecrement._Name
+    Type: BaseVariableType
+    DataType: String
+    DisplayName: {"LocaleId":"en","Text":"_Name"}
+    Description: {"LocaleId":"en","Text":""}
+    Value: "TankDecrement"
+  - Name: ns=23;_NegateValue
+    Id: ns=23;s=Simulation Examples.Functions.TankDecrement._NegateValue
+    Type: BaseVariableType
+    DataType: Boolean
+    DisplayName: {"LocaleId":"en","Text":"_NegateValue"}
+    Description: {"LocaleId":"en","Text":""}
+  - Name: ns=23;_RawDataType
+    Id: ns=23;s=Simulation Examples.Functions.TankDecrement._RawDataType
+    Type: BaseVariableType
+    DataType: String
+    DisplayName: {"LocaleId":"en","Text":"_RawDataType"}
+    Description: {"LocaleId":"en","Text":""}
+    Value: "Long"
+  - Name: ns=23;_ScalingClampHigh
+    Id: ns=23;s=Simulation Examples.Functions.TankDecrement._ScalingClampHigh
+    Type: BaseVariableType
+    DataType: Boolean
+    DisplayName: {"LocaleId":"en","Text":"_ScalingClampHigh"}
+    Description: {"LocaleId":"en","Text":""}
+  - Name: ns=23;_ScalingClampLow
+    Id: ns=23;s=Simulation Examples.Functions.TankDecrement._ScalingClampLow
+    Type: BaseVariableType
+    DataType: Boolean
+    DisplayName: {"LocaleId":"en","Text":"_ScalingClampLow"}
+    Description: {"LocaleId":"en","Text":""}
+  - Name: ns=23;_ScalingRawHigh
+    Id: ns=23;s=Simulation Examples.Functions.TankDecrement._ScalingRawHigh
+    Type: BaseVariableType
+    DataType: Double
+    DisplayName: {"LocaleId":"en","Text":"_ScalingRawHigh"}
+    Description: {"LocaleId":"en","Text":""}
+    Value: 1000.0
+  - Name: ns=23;_ScalingRawLow
+    Id: ns=23;s=Simulation Examples.Functions.TankDecrement._ScalingRawLow
+    Type: BaseVariableType
+    DataType: Double
+    DisplayName: {"LocaleId":"en","Text":"_ScalingRawLow"}
+    Description: {"LocaleId":"en","Text":""}
+  - Name: ns=23;_ScalingScaledDataType
+    Id: ns=23;s=Simulation Examples.Functions.TankDecrement._ScalingScaledDataType
+    Type: BaseVariableType
+    DataType: String
+    DisplayName: {"LocaleId":"en","Text":"_ScalingScaledDataType"}
+    Description: {"LocaleId":"en","Text":""}
+    Value: "Double"
+  - Name: ns=23;_ScalingScaledHigh
+    Id: ns=23;s=Simulation Examples.Functions.TankDecrement._ScalingScaledHigh
+    Type: BaseVariableType
+    DataType: Double
+    DisplayName: {"LocaleId":"en","Text":"_ScalingScaledHigh"}
+    Description: {"LocaleId":"en","Text":""}
+    Value: 1000.0
+  - Name: ns=23;_ScalingScaledLow
+    Id: ns=23;s=Simulation Examples.Functions.TankDecrement._ScalingScaledLow
+    Type: BaseVariableType
+    DataType: Double
+    DisplayName: {"LocaleId":"en","Text":"_ScalingScaledLow"}
+    Description: {"LocaleId":"en","Text":""}
+  - Name: ns=23;_ScalingType
+    Id: ns=23;s=Simulation Examples.Functions.TankDecrement._ScalingType
+    Type: BaseVariableType
+    DataType: String
+    DisplayName: {"LocaleId":"en","Text":"_ScalingType"}
+    Description: {"LocaleId":"en","Text":""}
+    Value: "None"
+  - Name: ns=23;_ScalingUnits
+    Id: ns=23;s=Simulation Examples.Functions.TankDecrement._ScalingUnits
+    Type: BaseVariableType
+    DataType: String
+    DisplayName: {"LocaleId":"en","Text":"_ScalingUnits"}
+    Description: {"LocaleId":"en","Text":""}
+- Name: ns=23;TankIncrement
+  Id: ns=23;s=Simulation Examples.Functions.TankIncrement
+  Type: BaseVariableType
+  DataType: UInt16
+  DisplayName: {"LocaleId":"en","Text":"TankIncrement"}
+  Description: {"LocaleId":"en","Text":""}
+  Children:
+  - Name: ns=23;_Address
+    Id: ns=23;s=Simulation Examples.Functions.TankIncrement._Address
+    Type: BaseVariableType
+    DataType: String
+    DisplayName: {"LocaleId":"en","Text":"_Address"}
+    Description: {"LocaleId":"en","Text":""}
+    Value: "RAMP (1000, 0, 40, 1)"
+  - Name: ns=23;_ClientAccess
+    Id: ns=23;s=Simulation Examples.Functions.TankIncrement._ClientAccess
+    Type: BaseVariableType
+    DataType: String
+    DisplayName: {"LocaleId":"en","Text":"_ClientAccess"}
+    Description: {"LocaleId":"en","Text":""}
+    Value: "Read Only"
+  - Name: ns=23;_Description
+    Id: ns=23;s=Simulation Examples.Functions.TankIncrement._Description
+    Type: BaseVariableType
+    DataType: String
+    DisplayName: {"LocaleId":"en","Text":"_Description"}
+    Description: {"LocaleId":"en","Text":""}
+    Value: "Value increments by 1 from 0 to 40every 250  ms"
+  - Name: ns=23;_Name
+    Id: ns=23;s=Simulation Examples.Functions.TankIncrement._Name
+    Type: BaseVariableType
+    DataType: String
+    DisplayName: {"LocaleId":"en","Text":"_Name"}
+    Description: {"LocaleId":"en","Text":""}
+    Value: "TankIncrement"
+  - Name: ns=23;_NegateValue
+    Id: ns=23;s=Simulation Examples.Functions.TankIncrement._NegateValue
+    Type: BaseVariableType
+    DataType: Boolean
+    DisplayName: {"LocaleId":"en","Text":"_NegateValue"}
+    Description: {"LocaleId":"en","Text":""}
+  - Name: ns=23;_RawDataType
+    Id: ns=23;s=Simulation Examples.Functions.TankIncrement._RawDataType
+    Type: BaseVariableType
+    DataType: String
+    DisplayName: {"LocaleId":"en","Text":"_RawDataType"}
+    Description: {"LocaleId":"en","Text":""}
+    Value: "Word"
+  - Name: ns=23;_ScalingClampHigh
+    Id: ns=23;s=Simulation Examples.Functions.TankIncrement._ScalingClampHigh
+    Type: BaseVariableType
+    DataType: Boolean
+    DisplayName: {"LocaleId":"en","Text":"_ScalingClampHigh"}
+    Description: {"LocaleId":"en","Text":""}
+  - Name: ns=23;_ScalingClampLow
+    Id: ns=23;s=Simulation Examples.Functions.TankIncrement._ScalingClampLow
+    Type: BaseVariableType
+    DataType: Boolean
+    DisplayName: {"LocaleId":"en","Text":"_ScalingClampLow"}
+    Description: {"LocaleId":"en","Text":""}
+  - Name: ns=23;_ScalingRawHigh
+    Id: ns=23;s=Simulation Examples.Functions.TankIncrement._ScalingRawHigh
+    Type: BaseVariableType
+    DataType: Double
+    DisplayName: {"LocaleId":"en","Text":"_ScalingRawHigh"}
+    Description: {"LocaleId":"en","Text":""}
+    Value: 1000.0
+  - Name: ns=23;_ScalingRawLow
+    Id: ns=23;s=Simulation Examples.Functions.TankIncrement._ScalingRawLow
+    Type: BaseVariableType
+    DataType: Double
+    DisplayName: {"LocaleId":"en","Text":"_ScalingRawLow"}
+    Description: {"LocaleId":"en","Text":""}
+  - Name: ns=23;_ScalingScaledDataType
+    Id: ns=23;s=Simulation Examples.Functions.TankIncrement._ScalingScaledDataType
+    Type: BaseVariableType
+    DataType: String
+    DisplayName: {"LocaleId":"en","Text":"_ScalingScaledDataType"}
+    Description: {"LocaleId":"en","Text":""}
+    Value: "Double"
+  - Name: ns=23;_ScalingScaledHigh
+    Id: ns=23;s=Simulation Examples.Functions.TankIncrement._ScalingScaledHigh
+    Type: BaseVariableType
+    DataType: Double
+    DisplayName: {"LocaleId":"en","Text":"_ScalingScaledHigh"}
+    Description: {"LocaleId":"en","Text":""}
+    Value: 1000.0
+  - Name: ns=23;_ScalingScaledLow
+    Id: ns=23;s=Simulation Examples.Functions.TankIncrement._ScalingScaledLow
+    Type: BaseVariableType
+    DataType: Double
+    DisplayName: {"LocaleId":"en","Text":"_ScalingScaledLow"}
+    Description: {"LocaleId":"en","Text":""}
+  - Name: ns=23;_ScalingType
+    Id: ns=23;s=Simulation Examples.Functions.TankIncrement._ScalingType
+    Type: BaseVariableType
+    DataType: String
+    DisplayName: {"LocaleId":"en","Text":"_ScalingType"}
+    Description: {"LocaleId":"en","Text":""}
+    Value: "None"
+  - Name: ns=23;_ScalingUnits
+    Id: ns=23;s=Simulation Examples.Functions.TankIncrement._ScalingUnits
+    Type: BaseVariableType
+    DataType: String
+    DisplayName: {"LocaleId":"en","Text":"_ScalingUnits"}
+    Description: {"LocaleId":"en","Text":""}
