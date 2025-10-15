@@ -384,7 +384,21 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 10.0
+            Value: 618.0
+          - Name: VerticalAlignment
+            Type: BaseVariableType
+            DataType: VerticalAlignment
+            ModellingRule: Optional
+          - Name: Height
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 1000.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: -518.0
         - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
@@ -397,10 +411,6 @@ Children:
       - Name: TrendPanel
         Type: Panel
         Children:
-        - Name: RightMargin
-          Type: BaseVariableType
-          DataType: Size
-          Value: 100.0
         - Name: MainTrend
           Type: Trend
           Children:
@@ -460,7 +470,7 @@ Children:
           - Name: Width
             Type: BaseVariableType
             DataType: Size
-            Value: 850.0
+            Value: 901.0
           - Name: Height
             Type: BaseVariableType
             DataType: Size
@@ -483,7 +493,6 @@ Children:
           - Name: HorizontalAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
-            Value: 3
           - Name: Enabled
             Type: BaseDataVariableType
             DataType: Boolean
@@ -517,6 +526,23 @@ Children:
               Type: DynamicLink
               DataType: NodePath
               Value: "../../../Logger@NodeId"
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+          - Name: VerticalAlignment
+            Type: BaseVariableType
+            DataType: VerticalAlignment
+            ModellingRule: Optional
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 550.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
         - Name: AdvancedTrendAlias
           Type: Alias
           DataType: NodeId
@@ -529,6 +555,10 @@ Children:
             Type: DynamicLink
             DataType: NodePath
             Value: "../MainTrend@NodeId"
+        - Name: RightMargin
+          Type: BaseVariableType
+          DataType: Size
+          Value: 100.0
       - Name: Logger
         Type: NodePointer
         DataType: NodeId
@@ -559,6 +589,21 @@ Children:
         DataType: HorizontalAlignment
         ModellingRule: Optional
         Value: 3
+      - Name: RightMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: -768.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 8.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
 - File: Screens/Screens.yaml
 - File: Keyboards/Keyboards.yaml
 - File: AdvancedTrend/AdvancedTrend.yaml
