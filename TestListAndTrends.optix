@@ -95,14 +95,14 @@ Project:
    Uri: 'b318ea19a2ee0d3230bc5d2724ce5ab5#ThingWorx Kepware Server'
    ServerUri: b318ea19a2ee0d3230bc5d2724ce5ab5
  Statistics:
-  TotalNodeCount: 5447
-  Objects: 1222
+  TotalNodeCount: 5451
+  Objects: 1223
   ObjectTypes: 17
-  Variables: 4201
+  Variables: 4204
   VariableTypes: 0
   DataTypes: 0
   Methods: 7
-  References: 46
+  References: 48
   ReferenceTypes: 0
   Files: 28
  Nodes:
